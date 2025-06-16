@@ -93,4 +93,49 @@ This Zomato dashboard effectively visualizes how restaurants operate on the plat
 
 
 
+**POWERBI DASHBOARD**     
+
+
+**Project Title: **
+📊 Zomato Restaurant Analysis — Power BI
+
+
+**📌 Short Description:**     
+This Power BI report visualises Zomato’s global restaurant data with dynamic visuals and advanced tooltips for deeper, interactive insights.     
+
+
+**⚙️ Tech Stats:**     
+**Data Cleaning:** Excel     
+**Data Extraction:** SQL (KPIs, aggregated tables)     
+**Visualisation:** Power BI     
+
+
+**Features and Highlights:**      
+Advanced tooltip on the country-wise tree map for drilldown insights.     
+Slicers for filtering by year, country, city, and price range.     
+KPI cards showing total restaurants, cuisines, and countries.     
+Trend lines for restaurants opened by year and quarter.     
+Top cuisines and most voted countries visualised.     
+Interactive map for geographical distribution.     
+
+     
+**📊 METRICS ANALYSED:**     
+Total number of restaurants, cuisines, and countries.     
+Average restaurant rating.     
+Top cuisines and their spread.     
+Country-wise and city-wise distribution.     
+Voting patterns for top restaurants.     
+Price range distribution.      
+Table booking and online delivery availability.     
+     
+**✅ Conclusion:**     
+Power BI helped create interactive and visually appealing dashboards that enable easy exploration of Zomato’s restaurant data across multiple dimensions and filters. The advanced tooltip feature adds depth by providing additional insights without cluttering the main view.     
+
+
+![Project-1](PowerBI_Dashboard_1.png)
+*Dashboard 1: Restaurant table booking, votes, countries, and price range insights.*
+
+
+![Project-1](PowerBI_Dashboard_2.png)
+*Dashboard 2: KPIs, top cuisines, country-wise trends, and advanced map tooltip.*
 
