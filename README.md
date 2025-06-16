@@ -111,12 +111,12 @@ This Power BI report visualises Zomato’s global restaurant data with dynamic v
 
 
 **Features and Highlights:**      
-Advanced tooltip on the country-wise tree map for drilldown insights.     
-Slicers for filtering by year, country, city, and price range.     
-KPI cards showing total restaurants, cuisines, and countries.     
+Advanced Tooltip: Added on the country-wise tree map to display detailed insights on hover without crowding the visual..     
+Bookmarks: Implemented for seamless navigation between different report views (Table Booking, Online Delivery, Current Delivery).     
+KPI cards summarising key figures: total restaurants, total cuisines, countries, and average ratings.     
 Trend lines for restaurants opened by year and quarter.     
 Top cuisines and most voted countries visualised.     
-Interactive map for geographical distribution.     
+Interactive map for geographical distribution which also has drilldown .     
 
      
 **📊 METRICS ANALYSED:**     
