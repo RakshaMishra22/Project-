@@ -132,7 +132,7 @@ Table booking and online delivery availability.
 Power BI helped create interactive and visually appealing dashboards that enable easy exploration of Zomato’s restaurant data across multiple dimensions and filters. The advanced tooltip feature adds depth by providing additional insights without cluttering the main view.     
 
 
-![PowerBI_Dashboard_1](PowerBI_Dashboard_1.png)
+![PowerBI_Dashboard_1](PowerBI_Dashoboard_1.png)
 *Dashboard 1: Restaurant table booking, votes, countries, and price range insights.*
 
 
