@@ -1,3 +1,12 @@
+****📑 Introduction****
+ This project demonstrates my complete workflow for handling a business dataset from raw data to meaningful insights. I started by thoroughly cleaning and preparing the data in Excel, ensuring it was accurate and analysis-ready. Next, I used SQL to extract key performance indicators (KPIs) and important metrics that form the backbone of the analysis.
+To bring the data to life, I designed detailed and interactive dashboards using Power BI and Tableau, showcasing how the same dataset can be visualized and interpreted through different tools and perspectives. Each dashboard highlights trends, patterns, and actionable insights that support data-driven decision making.
+This repository reflects my ability to combine data preparation, query writing, and visualization skills to deliver clear, insightful, and professional reports — all in one place.     
+
+
+
+**EXCEL DASHBOARD**
+
 **📊 Project Title**     
 Zomato Global Restaurants Analysis Dashboard     
 
@@ -35,6 +44,53 @@ This Tableau dashboard delivers crucial insights into Zomato’s restaurant data
 
 
 ![Project-1](Excel_Dashboard.png)
+
+
+
+**TABLEAU DASHBOARD**     
+
+
+**📊 Project Title**     
+Zomato Restaurants Business Dashboard     
+
+
+**📌 Short Description**
+This Tableau dashboard provides a comprehensive overview of Zomato’s restaurant listings across 15 countries, highlighting total counts, rating distributions, pricing trends, top cuisines, online delivery impact, and top performing restaurants. It enables stakeholders to understand customer preferences, operational trends, and growth patterns.
+
+**⚙️ Tech Stats**     
+**Tool Used:** Tableau     
+**Visuals:** KPIs, bar charts, line chart, treemap, donut charts     
+**Interactive Filters:** Country name, Year of Opening     
+**Data:** 9,551 restaurants with average ratings and service options     
+
+
+**Features and Highlights**     
+✅ KPI Tiles for Total Restaurants, Average Rating, and Total Countries Covered.     
+✅ Price Distribution: Majority of restaurants fall under the lowest price bucket (0k-3k).     
+✅ Restaurants by Opening Month: Seasonality and growth trends over time.     
+✅ Ratings Overview: Restaurants categorized by their average customer rating.     
+✅ Top Cuisines: Popular cuisines like North Indian, Chinese, and Fast Food dominate.     
+✅ Top Performing Restaurants: Treemap highlighting well-known chains such as Cafe Coffee Day, Domino’s Pizza, and Subway.     
+✅ Table Booking & Online Delivery: Clear split showing how many restaurants offer these services.     
+✅ Online Delivery Impact: Donut chart compares average ratings and counts for restaurants offering delivery vs. not offering.     
+
+**METRICS ANALYSED**     
+**Total Restaurants:** 9,551 listings across 15 countries.     
+**Average Rating:** 2.891, slightly below an ideal customer satisfaction mark.     
+**Pricing:** 9,119 restaurants priced under 3k — clear indication of a budget-friendly market.     
+**Opening Trends:** Consistent growth with visible seasonality in new restaurant openings.     
+**Ratings:** Highest cluster at 2.5 to 3.0 ratings; very few restaurants exceed 4.0.     
+**Top Cuisines:** North Indian cuisine is the most popular with 936 listings, often paired with Chinese and Mughlai.     
+**Table Booking:** Only 12.12% support table booking; a large majority do not.     
+**Online Delivery:** 25.66% offer delivery; these have a higher average rating (3.3) compared to those without delivery (2.8).     
+**Top Performers:** Café Coffee Day, Domino’s Pizza, Subway, and Pizza Hut stand out in performance and reach.     
+
+**✅ Conclusion**      
+This Zomato dashboard effectively visualizes how restaurants operate on the platform — highlighting affordability, popular cuisines, low table booking adoption, and the positive effect of online delivery on ratings. These insights can help management focus on enhancing service quality, expanding premium offerings, and targeting cuisines with growing demand.     
+
+
+![Project-1](Tableau_Dashboard.png)
+
 
 
 
