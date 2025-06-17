@@ -1,139 +1,77 @@
-****📑 Introduction****
- This project demonstrates my complete workflow for handling a business dataset from raw data to meaningful insights. I started by thoroughly cleaning and preparing the data in Excel, ensuring it was accurate and analysis-ready. Next, I used SQL to extract key performance indicators (KPIs) and important metrics that form the backbone of the analysis.
-To bring the data to life, I designed detailed and interactive dashboards using Power BI and Tableau, showcasing how the same dataset can be visualized and interpreted through different tools and perspectives. Each dashboard highlights trends, patterns, and actionable insights that support data-driven decision making.
-This repository reflects my ability to combine data preparation, query writing, and visualization skills to deliver clear, insightful, and professional reports — all in one place.     
+**📊 Project Title**        
+**Zomato Global Restaurants Analysis Dashboard**     
 
 
+****📑 Introduction****     
+**🔍 1️⃣ Data Cleaning and Preparation (Excel)**     
+1. Began by cleaning the raw data in Excel to ensure accuracy and consistency.     
+2. Identified and removed duplicate rows.     
+3. Handled missing values by filling, replacing, or removing them as appropriate.     
+4. Standardized inconsistent data entries (e.g., date formats, text cases).     
+5. Converted all transaction values from various currencies to Indian Rupees (INR) for consistent comparison and reporting.     
+6. Extracted date parts (day, month, year) from unstructured date columns and reconstructed them into a proper date format for accurate time-based analysis.     
+7. Cleaned and standardized city names and country codes to ensure geographic data was uniform and reliable.     
+8. Added calculated columns where needed for deeper insights.     
+9. Organized the dataset into clean, structured tables ready for SQL queries and dashboard imports.     
 
-**EXCEL DASHBOARD**
+**🗂️ 2️⃣ Data Extraction and Analysis (SQL)**
+1. Connected to the cleaned dataset and created relational structures where needed.     
+2. Wrote queries to extract key performance indicators (KPIs) and metrics such as total profit, sales growth, and customer segments.     
+3. Performed aggregations and used window functions to compare current vs. previous periods.     
+4. Validated results to ensure accuracy and relevance for visualization.     
 
-**📊 Project Title**     
-Zomato Global Restaurants Analysis Dashboard     
+**📈 3️⃣ Interactive Dashboards (Power BI)**     
+1. Imported the prepared data and built data models with relationships and hierarchies.     
+2. Created KPI cards, slicers, and filters for dynamic exploration.     
+3. Designed clear, interactive visuals such as bar charts, line graphs, and treemaps.     
+4. Added bookmarks and advanced tooltips for an enhanced user experience.     
+5. Focused on intuitive layouts and easy navigation between dashboard pages.     
+     
+**📊 4️⃣ Visual Storytelling (Tableau)**     
+1. Connected to the same dataset and replicated similar insights for comparison.     
+2. Built multiple dashboards highlighting trends, outliers, and performance breakdowns.     
+3. Used calculated fields and parameters for advanced interactivity.     
+4. Applied dynamic filters and actions to enable deep dives into specific segments.     
+5. Ensured the design is clean, responsive, and informative.     
 
+**INSIGHTS ABOUT THE DASHBOARD**     
 **📌 Short Description**     
-This interactive Tableau dashboard explores key insights about restaurants listed on Zomato across multiple countries. It provides an overview of table booking availability, online delivery trends, restaurant counts by country, cuisine popularity, price range distribution, and rating patterns.     
-
+This project showcases an end-to-end restaurant analytics solution built using Excel, Power BI, and Tableau, highlighting multi-tool proficiency and versatile data storytelling. The dashboards provide a clear, interactive view of restaurant ratings, average pricing, delivery options, and location-based trends to help stakeholders make informed business decisions.     
 
 **⚙️ Tech Stats**
-**Tool Used:** Tableau
-**Visuals:** Bar charts, donut chart, line chart, filled map
-**Filters:** Country, Cuisine, City, Year, Quarter, Month
-**Data Source:** Zomato dataset covering 9,551 restaurants in 15 countries
+Tool Used: Excel | Power BI | Tableau     
 
-**Features and Highlights**     
-✅ Summary KPIs for average rating, total restaurants, and number of countries.     
-✅ Clear breakdown of restaurants that offer table booking and online delivery.     
-✅ Top 5 insights for restaurants by average ratings, cuisines, and cities.     
-✅ Year-over-year trend line showing restaurant count by year, quarter, and month.     
-✅ Visual distribution of restaurants by price range.     
-✅ Filled map to view global restaurant distribution interactively.     
-✅ Dynamic filters for deep drill-down by country, cuisine, month, and city.     
+**🎯 Features and Highlights**     
+✅ Clean, user-friendly visuals with consistent design across tools      
+✅ Interactive filters, slicers, and drill-through navigation     
+✅ KPI cards for quick snapshots of key figures     
+✅ Bookmarks and advanced tooltips for enhanced interactivity (Power BI)     
+✅ Clear geographical distribution of restaurant performance     
+✅ Cross-platform presentation of the same core dataset for comparative learning     
 
-**METRICS ANALYSED**
-**Average Rating:** Overall restaurant rating is 2.89, indicating scope for service and food quality improvements.
-**Table Booking:** Only 12.12% of restaurants offer table booking — majority do not.
-**Online Delivery:** Around 25.66% offer online delivery — showing a moderate adoption.
-**Top Countries:** India dominates with 8,652 restaurants, while other countries have significantly fewer listings.
-**Top Average Ratings:** The largest group of restaurants is rated 1, followed by ratings between 3.1 to 3.3, which suggests rating inflation is minimal.
-**Price Range:** Over 95% of restaurants fall in the lowest price bucket (0-499), confirming affordability as a key trend.
-**Time Trends:** Restaurant numbers remained stable with slight fluctuations between 2010–2018, showing steady platform usage and listing growth.
-**Global Distribution:** Map visualization shows high concentration in India with some presence in UAE, Australia, and the UK.
+**📈 METRICS ANALYSED**
+Average restaurant ratings     
+Price range and cost trends     
+Online delivery availability     
+Number of restaurants by city and country     
+Location-based performance analysis     
 
-**✅ Conclusion**
-This Tableau dashboard delivers crucial insights into Zomato’s restaurant data, highlighting a strong presence in India, low average ratings, limited table booking and online delivery options, and an affordable pricing landscape. It equips stakeholders with actionable data to strategize market expansion, promote premium services, and enhance customer experience on the platform.
+**✅ Conclusion**     
+Together, these dashboards demonstrate the ability to transform raw restaurant data into actionable insights using industry-standard BI tools. The project highlights strong data visualization skills, tool adaptability, and a focus on making complex information accessible and insightful for decision-makers aiming to drive growth and customer satisfaction.     
+
+**Excel Dashboard:**          
+_A straightforward yet impactful visualization built using Excel’s charts, slicers, and pivot tables_.          
+![Project-1](Excel_Dashboard.png)      
 
 
-![Project-1](Excel_Dashboard.png)
-
-
-
-**TABLEAU DASHBOARD**     
-
-
-**📊 Project Title**     
-Zomato Restaurants Business Dashboard     
-
-
-**📌 Short Description**
-This Tableau dashboard provides a comprehensive overview of Zomato’s restaurant listings across 15 countries, highlighting total counts, rating distributions, pricing trends, top cuisines, online delivery impact, and top performing restaurants. It enables stakeholders to understand customer preferences, operational trends, and growth patterns.
-
-**⚙️ Tech Stats**     
-**Tool Used:** Tableau     
-**Visuals:** KPIs, bar charts, line chart, treemap, donut charts     
-**Interactive Filters:** Country name, Year of Opening     
-**Data:** 9,551 restaurants with average ratings and service options     
-
-
-**Features and Highlights**     
-✅ KPI Tiles for Total Restaurants, Average Rating, and Total Countries Covered.     
-✅ Price Distribution: Majority of restaurants fall under the lowest price bucket (0k-3k).     
-✅ Restaurants by Opening Month: Seasonality and growth trends over time.     
-✅ Ratings Overview: Restaurants categorized by their average customer rating.     
-✅ Top Cuisines: Popular cuisines like North Indian, Chinese, and Fast Food dominate.     
-✅ Top Performing Restaurants: Treemap highlighting well-known chains such as Cafe Coffee Day, Domino’s Pizza, and Subway.     
-✅ Table Booking & Online Delivery: Clear split showing how many restaurants offer these services.     
-✅ Online Delivery Impact: Donut chart compares average ratings and counts for restaurants offering delivery vs. not offering.     
-
-**METRICS ANALYSED**     
-**Total Restaurants:** 9,551 listings across 15 countries.     
-**Average Rating:** 2.891, slightly below an ideal customer satisfaction mark.     
-**Pricing:** 9,119 restaurants priced under 3k — clear indication of a budget-friendly market.     
-**Opening Trends:** Consistent growth with visible seasonality in new restaurant openings.     
-**Ratings:** Highest cluster at 2.5 to 3.0 ratings; very few restaurants exceed 4.0.     
-**Top Cuisines:** North Indian cuisine is the most popular with 936 listings, often paired with Chinese and Mughlai.     
-**Table Booking:** Only 12.12% support table booking; a large majority do not.     
-**Online Delivery:** 25.66% offer delivery; these have a higher average rating (3.3) compared to those without delivery (2.8).     
-**Top Performers:** Café Coffee Day, Domino’s Pizza, Subway, and Pizza Hut stand out in performance and reach.     
-
-**✅ Conclusion**      
-This Zomato dashboard effectively visualizes how restaurants operate on the platform — highlighting affordability, popular cuisines, low table booking adoption, and the positive effect of online delivery on ratings. These insights can help management focus on enhancing service quality, expanding premium offerings, and targeting cuisines with growing demand.     
-
-
+**Tableau Dashboard:**     
+_A dynamic Tableau dashboard with intuitive filters and clear data storytelling._         
 ![Project-1](Tableau_Dashboard.png)
 
-
-
-**POWERBI DASHBOARD**     
-
-
-**Project Title: **
-📊 Zomato Restaurant Analysis — Power BI
-
-
-**📌 Short Description:**     
-This Power BI report visualises Zomato’s global restaurant data with dynamic visuals and advanced tooltips for deeper, interactive insights.     
-
-
-**⚙️ Tech Stats:**     
-**Data Cleaning:** Excel     
-**Data Extraction:** SQL (KPIs, aggregated tables)     
-**Visualisation:** Power BI     
-
-
-**Features and Highlights:**      
-Advanced Tooltip: Added on the country-wise tree map to display detailed insights on hover without crowding the visual..     
-Bookmarks: Implemented for seamless navigation between different report views (Table Booking, Online Delivery, Current Delivery).     
-KPI cards summarising key figures: total restaurants, total cuisines, countries, and average ratings.     
-Trend lines for restaurants opened by year and quarter.     
-Top cuisines and most voted countries visualised.     
-Interactive map for geographical distribution which also has drilldown .     
-
-     
-**📊 METRICS ANALYSED:**     
-Total number of restaurants, cuisines, and countries.     
-Average restaurant rating.     
-Top cuisines and their spread.     
-Country-wise and city-wise distribution.     
-Voting patterns for top restaurants.     
-Price range distribution.      
-Table booking and online delivery availability.     
-     
-**✅ Conclusion:**     
-Power BI helped create interactive and visually appealing dashboards that enable easy exploration of Zomato’s restaurant data across multiple dimensions and filters. The advanced tooltip feature adds depth by providing additional insights without cluttering the main view.     
-
-
+ **Power BI Dashboard:**     
+_An interactive Power BI report with bookmarks and advanced tooltips for deeper exploration._     
 ![PowerBI_Dashboard_1](PowerBI_Dashoboard_1.png)
-*Dashboard 1: Restaurant table booking, votes, countries, and price range insights.*
+*Dashboard 1: Restaurant table booking, votes, countries, and price range insights.*     
 
 
 ![Project-1](PowerBI_Dashboard_2.png)
